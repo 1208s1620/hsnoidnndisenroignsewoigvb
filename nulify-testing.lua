@@ -11,7 +11,7 @@ local date = "April 23 2022"
 local script_load = false
 
 local beta_uids = {459, 371, 1183, 503, 423, 236} --beta should be put here.
-local admin_uids = {1} --admins should be put here.
+local admin_uids = {459} --admins should be put here.
 local function check_whitelist(table, val)
     for i=1,#table do
        if table[i] == val then 
